@@ -1,0 +1,28 @@
+
+body{
+    text-align: center;
+    background-color: #FFB740;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: #DF711B;
+    border-radius: 10%;
+}
+button:hover{
+    cursor: pointer;
+}
+#output{
+    margin: 10px;
+    font-size: 20px;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
