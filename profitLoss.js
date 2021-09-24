@@ -31,11 +31,15 @@ let submit=()=>{
 
 let checkVal=(ip,qt,op)=>{
     console.log(ip,qt,op)
+    if(ip<0 || qt<0 ||op<0){
+        output.innerHTML="Please provide positive values"
+    }else{
     if(ip==="" && qt===""  && op===""){
         output.innerHTML="Please Provide All the Values";
     }else{
         calcProfitLoss(ip,qt,op);
     }
+}
 
 }
 
